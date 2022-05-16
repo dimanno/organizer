@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 5px;
+    background-image: url("https://img.freepik.com/free-photo/natural-wooden-background_24837-269.jpg?t=st=1652200161~exp=1652200761~hmac=00c28fc8f3a880f6e42fcbf97818547711190048279bb0f8510ffadb0073f24b&w=740");
+    align-items: center;
+}
+
+.reight-side {
+width: 40%;
+}
+
+.left-side {
+width: 60%;
+}
+
+.menu {
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.brand-logo {
+    margin-right: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px white solid; 
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background: rgba(65, 65, 65, 0.363);
+}
+
+.menuItem {
+    padding: 10px;
+    background-color: rgba(3, 223, 14, 0.281);
+    border-radius: 10px;
+}
+
+.menuItem a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}

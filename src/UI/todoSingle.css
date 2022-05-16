@@ -1,0 +1,51 @@
+.todo_single {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 29.5%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url("https://img.freepik.com/free-photo/faded-gray-wooden-textured-flooring-background_53876-110739.jpg?t=st=1652205242~exp=1652205842~hmac=6a4889373e71e1df71ad6397bed9b3dbd00b820c276f9c706490a9718cf8ef71&w=740");
+}
+
+.todo_single--text {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+  }
+  
+.todo_single--text:focus {
+  outline: none;
+}
+
+.comleted {
+  color: brown;
+}
+  
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .todo_single {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .input {
+    width: 95%;
+  }
+  .container {
+    width: 95%;
+    flex-direction: column;
+  }
+  .todo_single {
+    width: 95%;
+    margin-bottom: 10px;
+  }
+}
